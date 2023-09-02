@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	overflow-x: hidden;
+}
+
+.main{
+/*	height: 100vh;*/
+	margin-top: 50px;
+	width: 100%;
+	margin-left: 25%;
+	align-items: center;
+}
+
+.main-div{
+	display: flex;
+	flex-direction: column;
+	border: 2px solid seagreen;
+	padding: 50px;
+	text-align: center;
+	background-color: darkgrey;
+
+	color: seagreen;
+
+
+}
+.form-set input{
+	margin: 15px;
+	height: 40px;
+	width: 90%;
+	border-radius: 15px;
+	border: 2px solid seagreen;
+	padding-left: 5px;
+
+}
+.form-set input::placeholder{
+	padding-left: 10px;
+  color: seagreen;
+
+}
+
+.form-set button{
+	padding: 7px 40px;
+	margin-left: 60%;
+	border: 2px solid seagreen;
+	background-color: seagreen;
+	margin-top: 5px;
+	color: white;
+
+}
+.form-set input:focus {
+  outline: none; /* Change this to your desired color */
+}
+
+/*----------------------------main content */
+
+.content{
+	display: none;
+	background-color: darkgrey;
+/*	width: 100%;*/
+}
+
+.logout-btn{
+	display: flex;
+	justify-content: flex-end;
+}
+
+.logout-btn button{
+	padding: 7px 40px;
+/*	margin-left: 60%;*/
+	border: 2px solid seagreen;
+	background-color: seagreen;
+	margin: 15px;
+	color: white;
+	
+}
+.heading{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.heading h1{
+	text-align: center;
+	color: seagreen;
+}
+
+.heading button{
+	padding: 7px 40px;
+/*	margin-left: 60%;*/
+	border: 2px solid seagreen;
+	background-color: seagreen;
+	margin: 35px 0;
+	color: white;
+}
+
+
+#table-body{
+	display: none;
+}
+
+thead tr th{
+	cursor: pointer;
+}

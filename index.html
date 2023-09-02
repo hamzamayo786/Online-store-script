@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+	<head>
+	    <!-- Required meta tags -->
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	    <!-- Bootstrap CSS -->
+	    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+	    <title>Online Store</title>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+	    
+	    <div class="container "> 
+	    	<div class="row main" id="loginForm">
+	    		<div class="col-md-6 main-div" >
+	    			<h1>Create Account Please!</h1>
+	    			<form class="form-set" >
+	    				<input type="email" name="email" placeholder="Enter Email" id="username" required>
+	    				<br>
+		    			<input type="Password" name=" Password" placeholder="Password" id="password" required>
+		    			<br>
+		    			<button type="submit">Login</button>
+
+	    			</form>
+	    			
+	    		</div>
+	    		
+	    	</div>
+
+	    </div>
+
+	    <section id="message" class="content">
+	    	<div class="container">
+	    			<div class="row">
+	    				<div class="col-12 logout-btn">
+	    					<button id="logoutButton" >Logout</button>
+	    				</div>
+	    				<div class="heading">
+	    					<h1>Online Store Shopping Now!</h1>
+	    					<button id="onload" >Products Load!</button>
+	    				</div>
+	    				
+	    				<div class="table-set">
+	    					<table class="table" id="myTable">
+								  <thead>
+								    <tr>
+								      <th scope="col" >#</th>
+								      <th scope="col" onclick="sortColumn(1)">title</th>
+								      <th scope="col" >description</th>
+								      <th scope="col">price</th>
+								      <th scope="col">discountPercentage</th>
+								      <th scope="col">rating</th>
+								      <th scope="col">stock</th>
+								      <th scope="col">brand</th>
+								      <th scope="col">category</th>
+								      <th scope="col">thumbnail</th>
+								    </tr>
+								  </thead>
+								  <tbody id="table-body">
+								  <!-- 	<tr>
+								  		<td>1</td>
+								  		<td>title</td>
+								  		<td>brand</td>
+								  		<td>oky</td>
+								  		<td>dummy</td>
+								  		<td>demo</td>
+								  		<td>oky</td>
+								  		<td>dummy</td>
+								  		<td>demo</td>
+								  		<td>demo</td>
+								  	</tr>
+								  	<tr>
+								  		<td>1</td>
+								  		<td>title2</td>
+								  		<td>brand2</td>
+								  		<td>oky2</td>
+								  		<td>dummy2</td>
+								  		<td>demo2</td>
+								  		<td>oky2</td>
+								  		<td>dummy2</td>
+								  		<td>demo2</td>
+								  		<td>demo2</td>
+								  	</tr>
+									<tr>
+								  		<td>13</td>
+								  		<td>title3</td>
+								  		<td>brand3</td>
+								  		<td>oky3</td>
+								  		<td>dummy3</td>
+								  		<td>demo3</td>
+								  		<td>oky3</td>
+								  		<td>dummy3</td>
+								  		<td>demo3</td>
+								  		<td>demo3</td>
+								  	</tr> -->
+
+
+								    
+								  </tbody>
+								</table>
+	    					
+	    				</div>
+	    			</div>
+	    	</div>
+	    	
+	    </section>
+
+<!-- style="display: none;" -->
+  
+  
+		<script src="script.js"></script>
+	    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	</body>
+</html>
